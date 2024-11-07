@@ -1,7 +1,7 @@
-import React from "react";
-import { TouchableOpacityProps } from "react-native";
+import React from 'react';
+import { TouchableOpacityProps } from 'react-native';
 
-import * as S from "./styles";
+import * as S from './styles';
 
 export type Props = TouchableOpacityProps & {
   title: string;

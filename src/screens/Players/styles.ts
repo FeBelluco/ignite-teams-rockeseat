@@ -35,3 +35,20 @@ export const PlayersInput = styled.TextInput.attrs({
     font-size: ${theme.FONT_SIZE.MD};
   `};
 `;
+
+export const HeaderList = styled.View`
+  width: 100%;
+
+  flex-direction: row;
+  align-items: center;
+
+  margin: 32px 0px 12px;
+`;
+
+export const NumbersOfPLayers = styled.Text`
+  ${({ theme }) => css`
+    color: ${theme.COLORS.GRAY_200};
+    font-family: ${theme.FONT_FAMILY.BOLD};
+    font-size: ${theme.FONT_SIZE.SM}px;
+  `};
+`;
