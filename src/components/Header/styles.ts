@@ -9,13 +9,17 @@ export const Container = styled.View`
   justify-content: center;
 `;
 
+export const HeadBox = styled.View`
+  flex: 1;
+`;
+
 export const Logo = styled.Image`
   width: 46px;
   height: 55px;
 `;
 
 export const BackButton = styled.TouchableOpacity`
-  flex: 1;
+  width: 10%;
 `;
 
 export const BackIcon = styled(CaretLeft).attrs(({ theme }) => ({
